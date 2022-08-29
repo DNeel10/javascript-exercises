@@ -1,6 +1,12 @@
-// set up function to remove "removal" from an array "array". Removal can be any number of items.
+// set up function to remove "removal" from an array "array". Removal can be any number of items using rest parameter
+//               const removeFromArray = function(array, ...removal)
+//
 // if "removal" is multiple arguments, cycle through each one
+//               for (const item of removal)
+//
 // remove each item from the original array.
+//               array.splice(index,1);
+//
 
 
 const removeFromArray = function(array, ...removal) {
