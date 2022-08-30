@@ -15,6 +15,11 @@
 
 
 const sumAll = function(...ints) { 
+    for (const int of ints){
+        if ((typeof int !== 'number') || (int < 0)){
+            return "ERROR";
+        }
+    }
     let intsSorted = ints.sort();
     let finalSum = intsSorted[0] + intsSorted[1];
     for (let i = intsSorted[1]-1; i > intsSorted[0]; i--){
