@@ -1,6 +1,7 @@
 // return array of titles
 // 
 // const books = [{title: 'Book', author: 'Name'},{title: 'Book2', author: 'Name2'}]
+// commented out code works, but map method works much better.
     
 
 
